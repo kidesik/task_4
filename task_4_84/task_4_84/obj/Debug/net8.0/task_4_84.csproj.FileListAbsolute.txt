@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\task_4_84\task_4_84\bin\Debug\net8.0\task_4_84.exe
+C:\Users\user\source\repos\task_4_84\task_4_84\bin\Debug\net8.0\task_4_84.deps.json
+C:\Users\user\source\repos\task_4_84\task_4_84\bin\Debug\net8.0\task_4_84.runtimeconfig.json
+C:\Users\user\source\repos\task_4_84\task_4_84\bin\Debug\net8.0\task_4_84.dll
+C:\Users\user\source\repos\task_4_84\task_4_84\bin\Debug\net8.0\task_4_84.pdb
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\task_4_84.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\task_4_84.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\task_4_84.AssemblyInfo.cs
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\task_4_84.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\task_4_84.dll
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\refint\task_4_84.dll
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\task_4_84.pdb
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\task_4_84.genruntimeconfig.cache
+C:\Users\user\source\repos\task_4_84\task_4_84\obj\Debug\net8.0\ref\task_4_84.dll
