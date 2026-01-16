@@ -1,0 +1,25 @@
+﻿Console.WriteLine("Введите координаты 1-го прямоугольника:");
+Console.Write("Левый нижний x угол 1 прямоугольника: ");
+int x1_min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Левый нижний y угол 1 прямоугольника: ");
+int y1_min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Правый верхний x угол 1 прямоугольника: "); 
+int x1_max = Convert.ToInt32(Console.ReadLine());
+Console.Write("Правый верхний y угол 1 прямоугольника: ");
+int y1_max = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("\nВведите координаты 2-го прямоугольника:");
+Console.Write("Левый нижний x угол 2 прямоугольника: ");
+int x2_min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Левый нижний y угол 2 прямоугольника: ");
+int y2_min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Правый верхний x угол 2 прямоугольника: ");
+int x2_max = Convert.ToInt32(Console.ReadLine());
+Console.Write("Правый верхний y угол 2 прямоугольника: ");
+int y2_max = Convert.ToInt32(Console.ReadLine());
+int res_x_min = Math.Min(x1_min, x2_min);
+int res_y_min = Math.Min(y1_min, y2_min);
+int res_x_max = Math.Max(x1_max, x2_max);
+int res_y_max = Math.Max(y1_max, y2_max);
+Console.WriteLine($"Левый нижний угол: ({res_x_min}, {res_y_min})");
+Console.WriteLine($"Правый верхний угол: ({res_x_max}, {res_y_max})");
