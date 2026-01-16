@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите двузначное число и однозначное число");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int a1 = a / 10;
+int a2 = a % 10;
+int d1 = (10 * a1 + a2 - b) / 10;
+int d2 = (10 * a1 + a2 - b) % 10;
+Console.WriteLine($"Цифры числа, равного разности заданных чисел:");
+Console.WriteLine($"Цифра десятков (d1): **{d1}**");
+Console.WriteLine($"Цифра единиц (d2): **{d2}**");
+Console.WriteLine($"Результат (для проверки): {d1}{d2}");

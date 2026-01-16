@@ -1,0 +1,21 @@
+﻿Console.WriteLine("Введите цифры трехзначного числа (Уменьшаемое):");
+Console.Write("Цифра сотен (a2): ");
+int a3 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Цифра десятков (a1): ");
+int a2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Цифра единиц (a): ");
+int a1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("\nВведите цифры двузначного числа (Вычитаемое):");
+Console.Write("Цифра десятков (b2): ");
+int b2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Цифра единиц (b1): ");
+int b1 = Convert.ToInt32(Console.ReadLine());
+int sumExpression = (100 * a3 + 10 * a2 + a1) + (10 * b2 + b1);
+int d1 = sumExpression / 100;
+int d2 = (sumExpression / 10) % 10;
+int d3 = sumExpression % 10;
+Console.WriteLine($"Цифры числа, равного сумме (результат):");
+Console.WriteLine($"Цифра сотен (d1): **{d1}**");
+Console.WriteLine($"Цифра десятков (d2): **{d2}**");
+Console.WriteLine($"Цифра единиц (d3): **{d3}**");
