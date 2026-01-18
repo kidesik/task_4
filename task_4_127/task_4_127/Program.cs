@@ -1,0 +1,12 @@
+﻿Console.Write("Введите целое ненулевое число a: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите целое ненулевое число b: ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите целое ненулевое число c: ");
+int c = Convert.ToInt32(Console.ReadLine());
+int max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+Console.WriteLine($"Максимальное число: {max}");
+int min = (a < b) ? ((a < c) ? a : c) : ((b < c) ? b : c);
+Console.WriteLine($"Минимальное число: {min}");
+int middle = a + b + c - Math.Max(a, Math.Max(b, c)) - Math.Min(a, Math.Min(b, c));
+Console.WriteLine($"Среднее число: {middle}");
